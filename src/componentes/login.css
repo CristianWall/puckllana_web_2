@@ -1,0 +1,110 @@
+.login {
+    width: 100vw;
+    height: 100dvh;
+
+    background-image: url('../assets/login.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: aqua; */
+    /* height: 100vh;
+    width: 100vh; */
+}
+
+.rectangulo_blur {
+    width: 605px;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background: rgba(237, 237, 237, 0.71);
+    backdrop-filter: blur(22.25px);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.titulo_verde {
+    color: #064F5F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.formulario {
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.ingreso_texto {
+    padding: 14px;
+    border-radius: 20px;
+    background: #FFF;
+    width: 451px;
+    height: 72px;
+    color: black;
+
+}
+
+.ingreso_texto::placeholder {
+    color: #B4B9C2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boton_login {
+    border-radius: 20px;
+    background: #065F46;
+    color: white;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.boton_login:focus {
+    border-radius: 20px;
+    background-color: #065F46;
+}
+
+.link_login {
+    margin-top: 36px;
+    margin-right: 36px;
+    color: #065F46;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.linea_login {
+    margin: 10px;
+    width: 451px;
+    height: 1px;
+    background: #000;
+}
+
+.login_registro{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}

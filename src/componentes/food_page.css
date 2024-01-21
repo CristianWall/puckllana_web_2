@@ -1,0 +1,42 @@
+.filter {
+    border-radius: 12px;
+    
+}
+
+.letra_delgada {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.letra_hechada {
+    font-family: Josefin Sans;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+.filter_titulo{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.filter_subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
